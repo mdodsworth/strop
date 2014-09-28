@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'scala'
+
+repositories {
+    // Use 'jcenter' for resolving your dependencies.
+  jcenter()
+}
+
+dependencies {
+  compile 'org.slf4j:slf4j-api:1.7.5'
+  compile 'com.google.guava:guava:18.+'   
+  testCompile "junit:junit:4.11"
+}
