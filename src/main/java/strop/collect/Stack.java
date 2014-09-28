@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class Stack<T> {
 
-  private final AtomicReference<Node<T>> top = new AtomicReference<>(null);
+  private final AtomicReference<Node<T>> top = new AtomicReference<>();
 
   public Stack<T> push(T value) {
     Node<T> currentTop;
